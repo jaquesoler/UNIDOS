@@ -26,14 +26,14 @@ public class FollowOnTrigger : MonoBehaviour
         
     }
 
-    void OnTriggerEnter (Collider other)
+    void OnCollisionEnter2D (Collision2D other)
     {
-        if (other.gameObject == target)
+        if (other.gameObject.tag == "Player")
         {
             isTouched = true;
         }
 
-    }
+    } 
 
 
     void Update()
