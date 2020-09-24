@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float speed = 0.0f;
-    public float moveX = 0.0f;
-    public float moveY = 0.0f;
-
+    public float speed;
+    public Rigidbody2D playerRb;
+    private Vector2 movement;
+    public bool colisao = false;
 
     void Start()
     {
@@ -16,11 +16,42 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        moveX = Input.GetAxis("Horizontal");
-        moveY = Input.GetAxis("Vertical");
+        Controller();
 
-        gameObject.transform.position = new Vector2(transform.position.x + (moveX * speed * Time.deltaTime),
-            transform.position.y + (moveY * speed * Time.deltaTime));
+    }
+
+    private void FixedUpdate()
+    {
+        MovementAction();
+    }
+
+    
+    void Controller()
+    {
+        movement.x = Input.GetAxisRaw("Horizontal");
+
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        if (movement.x > 0.05f)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+
+        }
+        else if (movement.x < -0.05f)
+        {
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+
+        }
+    }
+
+    void MovementAction()
+    {
+        playerRb.velocity = new Vector2(movement.x * speed, movement.y * speed);
+    }
+
+    void OnTriggerEnter2D (Collider2D collider)
+    {
+        colisao = true;
     }
     
    
