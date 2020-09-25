@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
     public float speed;
     public Rigidbody2D playerRb;
     private Vector2 movement;
+    public bool entCollision = false;
     public bool colisao = false;
 
     void Start()
@@ -49,9 +50,19 @@ public class Movement : MonoBehaviour
         playerRb.velocity = new Vector2(movement.x * speed, movement.y * speed);
     }
 
-    void OnTriggerEnter2D (Collider2D collider)
+    void OnTriggerEnter2D (Collider2D target)
     {
-        colisao = true;
+        if (target.tag == "Flower")
+        {
+            colisao = true;
+            entCollision = false;
+        } 
+        else if (target.tag == "Ent") 
+        {
+            colisao = false;
+            entCollision = true;
+        }
+            
     }
     
    

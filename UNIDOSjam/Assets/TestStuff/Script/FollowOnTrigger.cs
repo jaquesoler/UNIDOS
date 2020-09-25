@@ -35,10 +35,8 @@ public class FollowOnTrigger : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, target.position, vel * Time.deltaTime);
 
             }
-
         }
-
-        if (Player.GetComponent<EntCollision>().entCollision == true)
+        else if (Player.GetComponent<Movement>().entCollision == true)
         {
             transform.position = Vector2.MoveTowards(transform.position, entTarget.position, vel * Time.deltaTime);
         }
