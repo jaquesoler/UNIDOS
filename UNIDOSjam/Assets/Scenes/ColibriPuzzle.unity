@@ -350,8 +350,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a5f90a11ef40045b38fc024586cfec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: 5
-  distance: 2
+  vel: 4
+  distance: 3
   Player: {fileID: 1151720290}
   Ent: {fileID: 507478475}
 --- !u!1 &1151720290
@@ -409,9 +409,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  deliveredTimer: 3
   playerRb: {fileID: 1151720291}
   entCollision: 0
   colisao: 0
+  delivered: 0
 --- !u!212 &1151720293
 SpriteRenderer:
   m_ObjectHideFlags: 0

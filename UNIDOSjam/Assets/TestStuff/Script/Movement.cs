@@ -1,18 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
     public float speed;
+    public float deliveredTimer;
     public Rigidbody2D playerRb;
     private Vector2 movement;
     public bool entCollision = false;
     public bool colisao = false;
+    public bool delivered = false;
+    
+
 
     void Start()
     {
-      
+     
     }
 
     void Update()
@@ -50,7 +55,7 @@ public class Movement : MonoBehaviour
         playerRb.velocity = new Vector2(movement.x * speed, movement.y * speed);
     }
 
-    void OnTriggerEnter2D (Collider2D target)
+    IEnumerator OnTriggerEnter2D (Collider2D target)
     {
         if (target.tag == "Flower")
         {
@@ -61,9 +66,16 @@ public class Movement : MonoBehaviour
         {
             colisao = false;
             entCollision = true;
+            delivered = true;
         }
-            
+
+        if (delivered == true)
+        {
+            yield return new WaitForSeconds(deliveredTimer);
+            entCollision = false;
+            delivered = false;
+        }
+
     }
-    
-   
+
 }
