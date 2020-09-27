@@ -20,8 +20,8 @@ public class FollowOnTrigger : MonoBehaviour
 
     void Start()
     {
-        //Player = GameObject.FindGameObjectWithTag("Player");
-        //Ent = GameObject.FindGameObjectWithTag("Ent");
+        Player = GameObject.FindGameObjectWithTag("Player");
+        Ent = GameObject.FindGameObjectWithTag("Ent");
 
         target = Player.GetComponent<Transform>();
         entTarget = Ent.GetComponent<Transform>();
