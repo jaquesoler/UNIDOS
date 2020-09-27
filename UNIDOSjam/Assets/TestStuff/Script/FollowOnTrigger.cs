@@ -15,21 +15,28 @@ public class FollowOnTrigger : MonoBehaviour
     private Vector2 boxFollow;
     public bool triggered;
     public bool delivered;
+    public bool dissapear;
+    private float disTimer;
    
 
 
     void Start()
     {
+        this.GetComponent<RotateAroundEntity>().enabled = false;
         Player = GameObject.FindGameObjectWithTag("Player");
         Ent = GameObject.FindGameObjectWithTag("Ent");
 
         target = Player.GetComponent<Transform>();
         entTarget = Ent.GetComponent<Transform>();
+
+        disTimer = 4.0f;
+        dissapear = true;
     }
 
     void Update()
     {
-        if(triggered){
+        if(triggered)
+        {
             if ( Player.GetComponent<Movement>().colisao == true)
             {
                 boxFollow.x = Input.GetAxisRaw("Horizontal");
@@ -44,18 +51,34 @@ public class FollowOnTrigger : MonoBehaviour
             else if (Player.GetComponent<Movement>().entCollision == true)
             {
                 transform.position = Vector2.MoveTowards(transform.position, entTarget.position, vel * Time.deltaTime);
-                //this.GetComponent<FollowOnTrigger>().enabled = false;
             }
         }
-        
+        else        
+        {
+
+            disTimer -= Time.deltaTime;
+
+            if (dissapear == true && disTimer <= 0)
+            {
+                Dissapear();
+            }
+        }
+
+
+    }
+
+    void Dissapear()
+    {
+        Destroy(this.gameObject);
     }
 
     void OnTriggerEnter2D(Collider2D col){
         if (col.tag == "Player"){
+            this.dissapear = false;
             this.triggered = true;
         }
          if (col.tag == "Ent"){
-            Debug.Log("Penis");
+            this.GetComponent<RotateAroundEntity>().enabled = true;
             this.GetComponent<FollowOnTrigger>().enabled = false;
          }
     }
