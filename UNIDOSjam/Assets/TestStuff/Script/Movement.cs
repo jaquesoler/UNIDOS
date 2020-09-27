@@ -64,9 +64,11 @@ public class Movement : MonoBehaviour
         } 
         else if (target.tag == "Ent") 
         {
-            colisao = false;
-            entCollision = true;
-            delivered = true;
+            if (colisao == true){
+                colisao = false;
+                entCollision = true;
+                delivered = true;
+            }           
         }
 
         if (delivered == true)
