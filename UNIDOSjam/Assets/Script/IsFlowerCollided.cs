@@ -33,7 +33,7 @@ public class IsFlowerCollided : MonoBehaviour
     { 
         if (flowCollided) 
         { 
-            Manager.GetComponent<EndSpawnManager>().flowDelivered += 1;
+            Manager.GetComponent<FlowerCounter>().flowDelivered += 1;
             flowCollided = false;
         }
     }

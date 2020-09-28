@@ -36,14 +36,15 @@ public class Movement : MonoBehaviour
 
         movement.y = Input.GetAxisRaw("Vertical");
 
+        
         if (movement.x > 0.05f)
         {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.rotation = Quaternion.Euler(0, 0, -90);
 
         }
         else if (movement.x < -0.05f)
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.rotation = Quaternion.Euler(0, 180, -90);
 
         }
     }

@@ -6,6 +6,12 @@ public class MoveDownwards : MonoBehaviour
 {
     public float speed = 10f;
     public float EndZone = -22f;
+    public GameObject Spawner;
+
+    private void Start()
+    {
+        Spawner = GameObject.FindGameObjectWithTag("ManagerSpawn");
+    }
 
     void Update()
     {
@@ -14,6 +20,8 @@ public class MoveDownwards : MonoBehaviour
         if (transform.position.y < EndZone)
         {
             Dissapear();
+            Spawner.GetComponent<SpawnManager>().FlowersSpawned++;
+
         }
     }
 
