@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ent
   - Flower
+  - ManagerSpawn
   layers:
   - Default
   - TransparentFX
