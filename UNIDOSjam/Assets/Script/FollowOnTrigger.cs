@@ -15,12 +15,6 @@ public class FollowOnTrigger : MonoBehaviour
     private Vector2 boxFollow;
     public bool triggered;
     public bool delivered;
-    public bool dissapear;
-    private float disTimer;
-    public bool flowCollided;
-   
-
-
     void Start()
     {
         this.GetComponent<RotateAroundEntity>().enabled = false;
@@ -29,11 +23,6 @@ public class FollowOnTrigger : MonoBehaviour
 
         target = Player.GetComponent<Transform>();
         entTarget = Ent.GetComponent<Transform>();
-
-        disTimer = 4.0f;
-        dissapear = true;
-
-        flowCollided = false;
     }
 
     void Update()
@@ -56,34 +45,20 @@ public class FollowOnTrigger : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, entTarget.position, vel * Time.deltaTime);
             }
         }
-        else        
-        {
-
-            disTimer -= Time.deltaTime;
-
-            if (dissapear == true && disTimer <= 0)
-            {
-                Dissapear();
-            }
-        }
-
-
     }
 
-    void Dissapear()
+    void OnTriggerEnter2D(Collider2D col)
     {
-        Destroy(this.gameObject);
-    }
-
-    void OnTriggerEnter2D(Collider2D col){
-        if (col.tag == "Player"){
-            this.dissapear = false;
+        if (col.tag == "Player")
+        {
+            this.GetComponent<MoveDownwards>().enabled = false;
             this.triggered = true;
         }
-         if (col.tag == "Ent"){
+        if (col.tag == "Ent")
+        {
             this.GetComponent<RotateAroundEntity>().enabled = true;
             this.GetComponent<FollowOnTrigger>().enabled = false;
-         }
+        }
     }
 
 }

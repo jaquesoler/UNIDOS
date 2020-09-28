@@ -27,8 +27,8 @@ public class SpawnManager : MonoBehaviour
         while (true)
         {   
             // This limits the spawn places to the area right of entity inside the camera
-            coordX = Random.Range(-screenBounds.x + 15, screenBounds.x - 1);
-            coordY = Random.Range(-screenBounds.y + 1, screenBounds.y - 1);
+            coordX = Random.Range(-screenBounds.x + 15, screenBounds.x - 2);
+            coordY = Random.Range(screenBounds.y + 5, screenBounds.y);
             Instantiate(flowerPrefab, new Vector2(coordX, coordY), Quaternion.identity);
             yield return new WaitForSeconds(respawnTime);
         }
