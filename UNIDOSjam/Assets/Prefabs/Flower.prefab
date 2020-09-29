@@ -75,14 +75,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a5f90a11ef40045b38fc024586cfec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: 6
-  distance: 3
+  vel: 15
+  distance: 2
   Player: {fileID: 0}
   Ent: {fileID: 0}
   triggered: 0
   delivered: 0
-  dissapear: 0
-  flowCollided: 0
 --- !u!114 &8668973614804044458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,9 +93,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acaf19a9ba30ec34eb38e0628a4b929a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xAngle: 0
-  yAngle: 0
-  zAngle: 0.2
+  speed: 10
+  EndZone: -22
 --- !u!114 &9153827470176366164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,3 +191,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowCollided: 0
+  Manager: {fileID: 0}

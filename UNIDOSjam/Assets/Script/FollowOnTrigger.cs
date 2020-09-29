@@ -10,6 +10,7 @@ public class FollowOnTrigger : MonoBehaviour
     public float distance;
     public GameObject Player;
     public GameObject Ent;
+    public GameObject Spawner;
     private Transform target;
     private Transform entTarget;
     private Vector2 boxFollow;
@@ -20,6 +21,7 @@ public class FollowOnTrigger : MonoBehaviour
         this.GetComponent<RotateAroundEntity>().enabled = false;
         Player = GameObject.FindGameObjectWithTag("Player");
         Ent = GameObject.FindGameObjectWithTag("Ent");
+        Spawner = GameObject.FindGameObjectWithTag("ManagerSpawn");
 
         target = Player.GetComponent<Transform>();
         entTarget = Ent.GetComponent<Transform>();
@@ -53,11 +55,15 @@ public class FollowOnTrigger : MonoBehaviour
         {
             this.GetComponent<MoveDownwards>().enabled = false;
             this.triggered = true;
+
+
         }
         if (col.tag == "Ent")
         {
             this.GetComponent<RotateAroundEntity>().enabled = true;
+            Spawner.GetComponent<SpawnManager>().FlowersSpawned++;
             this.GetComponent<FollowOnTrigger>().enabled = false;
+
         }
     }
 

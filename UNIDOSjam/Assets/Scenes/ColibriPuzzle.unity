@@ -274,6 +274,8 @@ MonoBehaviour:
   flowerPrefab: {fileID: 2837795639497451802, guid: 3bee2bde7146f9a49b5a53d7c6c230b4,
     type: 3}
   respawnTime: 1
+  SpawnRepeater: 15
+  FlowersSpawned: 0
 --- !u!4 &730705121
 Transform:
   m_ObjectHideFlags: 0
@@ -561,7 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6265d14a0bfc2d642a421621935ae6a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15
   deliveredTimer: 3
   playerRb: {fileID: 1151720291}
   entCollision: 0
@@ -647,27 +649,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1151720296
-MonoBehaviour:
+--- !u!95 &1151720296
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151720290}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78bb3e2297b5103428bf21c1ff5bccb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  conversation: {fileID: 11400000, guid: 98673774bcd56c74e8d07e0e277390a5, type: 2}
-  speakerLeft: {fileID: 1322782974}
-  speakerRight: {fileID: 788081419}
---- !u!1 &1322782974 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5343684242725384643, guid: 240c60cf444cc8b4695e9a0da25a771f,
-    type: 3}
-  m_PrefabInstance: {fileID: 953904536}
-  m_PrefabAsset: {fileID: 0}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fccf39497642f2548a5e031bee80771f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1574867852
 GameObject:
   m_ObjectHideFlags: 0
