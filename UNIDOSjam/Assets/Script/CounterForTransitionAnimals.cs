@@ -1,0 +1,25 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CounterForTransitionAnimals : MonoBehaviour
+{
+
+    public int contador;
+   
+    void Start()
+    {
+        contador = 0;  
+    }
+
+
+    void Update()
+    {
+        if (contador == 5)
+        {
+            Debug.Log("Você achou Todos, Parabéns!");
+
+            //Aqui entra o codigo pra transição de cena
+        }
+    }
+}
