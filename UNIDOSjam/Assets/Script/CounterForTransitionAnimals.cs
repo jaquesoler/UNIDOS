@@ -15,7 +15,7 @@ public class CounterForTransitionAnimals : MonoBehaviour
 
     void Update()
     {
-        if (contador == 5)
+        if (contador == 7)
         {
             Debug.Log("Você achou Todos, Parabéns!");
 

@@ -62,6 +62,7 @@ public class FollowOnTrigger : MonoBehaviour
         {
             this.GetComponent<RotateAroundEntity>().enabled = true;
             Spawner.GetComponent<SpawnManager>().FlowersSpawned++;
+            // Som florzinha entregue
             this.GetComponent<FollowOnTrigger>().enabled = false;
 
         }
