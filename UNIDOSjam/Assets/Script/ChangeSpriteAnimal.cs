@@ -6,9 +6,15 @@ public class ChangeSpriteAnimal : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
     public Sprite newSprite;
+    public AudioSource clique;
+    public GameObject Contador;
 
     void Start()
     {
+        Contador = GameObject.FindGameObjectWithTag("contador");
+
+        clique = GetComponent<AudioSource>();
+        
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
     }
 
@@ -21,7 +27,11 @@ public class ChangeSpriteAnimal : MonoBehaviour
             
             if (col.OverlapPoint(wp))
             {
+                clique.Play();
                 ChangeSprite();
+                Contador.GetComponent<CounterForTransitionAnimals>().contador+=1;
+                this.GetComponent<ChangeSpriteAnimal>().enabled = false;
+
             }
             
         }
