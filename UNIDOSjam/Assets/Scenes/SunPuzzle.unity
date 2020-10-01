@@ -674,6 +674,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 445915640}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &510174577
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 58.652317
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 82.48409
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.876286
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374922, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 970224548576374927, guid: c21551e18c6ecb140a34f78eec5984c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Music
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c21551e18c6ecb140a34f78eec5984c5, type: 3}
 --- !u!1001 &581125294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -865,17 +934,17 @@ PrefabInstance:
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 70
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 13
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 14
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -891,27 +960,42 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: "N\xE3o havia terra, n\xE3o havia sol. A \xFAnica luz era o cora\xE7\xE3o
-        de Nhamandu."
+        de Nhamandu que descansava no vento."
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 27
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_fontSize
-      value: 38
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 38
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -306.76718
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -157.69337
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033465, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033465, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252410190923, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -921,17 +1005,17 @@ PrefabInstance:
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 71
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 13
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -947,12 +1031,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: "No hab\xEDa tierra, no habia sol. La \xFAnica luz era el coraz\xF3n
-        de Nhamandu."
+        de Nhamandu que descansaba en el viento."
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 34
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -962,17 +1046,22 @@ PrefabInstance:
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_fontSize
-      value: 30
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 30
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -183.70433
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188774, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -103
+      value: -101
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188774, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -982,22 +1071,22 @@ PrefabInstance:
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 74
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 13
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -1008,7 +1097,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: There was no earth, there was no sun. The only light was Nhamandu's
-        heart.
+        heart who rested in the wind.
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -1033,7 +1122,12 @@ PrefabInstance:
     - target: {fileID: 1137374252606306949, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 128
+      value: 151
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306949, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -98
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252638062711, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -2100,7 +2194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138510165}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29, y: -8.3, z: 0}
+  m_LocalPosition: {x: 29, y: -16.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2118,146 +2212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7e3a80e65c59fa488bbdd25f0bc5e9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1352574435
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1352574438}
-  - component: {fileID: 1352574437}
-  - component: {fileID: 1352574436}
-  m_Layer: 0
-  m_Name: Music
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &1352574436
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352574435}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7bfd4024328dc844b8cbbb15f9788522, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &1352574437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352574435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef27fba925690f147b6a5c019663f4da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1352574438
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352574435}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 58.652317, y: 82.48409, z: -10.876286}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1389354095
 PrefabInstance:
   m_ObjectHideFlags: 0
