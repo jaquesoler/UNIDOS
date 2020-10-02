@@ -10,7 +10,7 @@ Material:
   m_Name: Sun
   m_Shader: {fileID: -6465566751694194690, guid: d4ea08041b27c8247b7f1abae4ea4559,
     type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -29,4 +29,4 @@ Material:
     - Vector1_EB294201: 0.1
     m_Colors:
     - Color_5ABABDF0: {r: 0, g: 0, b: 0, a: 0}
-    - Color_EE979D95: {r: 0.4941176, g: 1.403922, b: 1.984314, a: 0}
+    - Color_EE979D95: {r: 3.53691, g: 3.53691, b: 3.53691, a: 0}
