@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1838,7 +1838,7 @@ PrefabInstance:
     - target: {fileID: 1137374251536728722, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252135639015, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -1967,6 +1967,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 41
       objectReference: {fileID: 0}
+    - target: {fileID: 1137374252410190923, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -2078,6 +2083,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252638062711, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -2283,6 +2293,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2afa3391ce626154184d2e51b3202c01, type: 3}
+--- !u!1 &1442062135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1137374252638062711, guid: 2afa3391ce626154184d2e51b3202c01,
+    type: 3}
+  m_PrefabInstance: {fileID: 1442062134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1661629889
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,6 +2424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2106228727}
   - component: {fileID: 2106228726}
+  - component: {fileID: 2106228728}
   m_Layer: 0
   m_Name: CounterForTransition
   m_TagString: contador
@@ -2442,3 +2459,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2106228728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106228725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a56dd7baecc36e43b051416883d8319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: ShadersScene
+  fade: {fileID: 1442062135}

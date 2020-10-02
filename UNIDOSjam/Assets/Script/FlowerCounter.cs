@@ -15,10 +15,11 @@ public class FlowerCounter : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   Debug.Log(flowDelivered);
         if (flowDelivered >= 8)
         {
-            Debug.Log("Iamandu ta Happyy!");
+            //Debug.Log("Iamandu ta Happyy!");
+            GetComponent<EndStage>().EndLvl();
         }
 
         else if (flowDelivered < 8 && this.GetComponent<SpawnManager>().FlowersSpawned >= this.GetComponent<SpawnManager>().SpawnRepeater)

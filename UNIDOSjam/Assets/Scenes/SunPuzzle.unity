@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1617,6 +1617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: fade
       value: 
+      objectReference: {fileID: 1227914541}
+    - target: {fileID: 7189245861745977805, guid: 3f71af34608d89b41b2f3fc48610bf50,
+        type: 3}
+      propertyPath: triggerMeTimbers
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f71af34608d89b41b2f3fc48610bf50, type: 3}
@@ -1753,6 +1758,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1137374251536728722, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1137374252135639015, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_IsActive
@@ -2211,6 +2221,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2afa3391ce626154184d2e51b3202c01, type: 3}
+--- !u!1 &1227914541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1137374252638062711, guid: 2afa3391ce626154184d2e51b3202c01,
+    type: 3}
+  m_PrefabInstance: {fileID: 1227914540}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1389354095
 PrefabInstance:
   m_ObjectHideFlags: 0

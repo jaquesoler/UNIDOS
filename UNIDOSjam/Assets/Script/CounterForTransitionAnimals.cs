@@ -18,6 +18,8 @@ public class CounterForTransitionAnimals : MonoBehaviour
         if (contador == 7)
         {
             Debug.Log("Você achou Todos, Parabéns!");
+            this.GetComponent<EndStage>().EndLvl();
+
 
             //Aqui entra o codigo pra transição de cena
         }
