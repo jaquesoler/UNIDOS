@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lava
+  m_Name: Sun
   m_Shader: {fileID: -6465566751694194690, guid: d4ea08041b27c8247b7f1abae4ea4559,
     type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -22,11 +22,11 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - Vector1_1593C59D: 20
-    - Vector1_5ED1AD41: 1
-    - Vector1_602B1D6F: 1
+    - Vector1_5ED1AD41: 0.1
+    - Vector1_602B1D6F: 0
     - Vector1_7533617C: 1
-    - Vector1_87F7EB5B: 1
-    - Vector1_EB294201: 10
+    - Vector1_87F7EB5B: 5
+    - Vector1_EB294201: 0.1
     m_Colors:
     - Color_5ABABDF0: {r: 0, g: 0, b: 0, a: 0}
-    - Color_EE979D95: {r: 3.4960525, g: 2.469863, b: 0, a: 0}
+    - Color_EE979D95: {r: 0.4941176, g: 1.403922, b: 1.984314, a: 0}
