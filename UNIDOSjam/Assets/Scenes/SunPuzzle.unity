@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1746,6 +1746,354 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7e3a80e65c59fa488bbdd25f0bc5e9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1227914540
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1137374252135639015, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: "Ainda n\xE3o havia terra, n\xE3o havia sol. A \xFAnica luz era o cora\xE7\xE3o
+        de Nhamandu."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -136.46347
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -212.71736
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033465, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252410190923, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: "No hab\xEDa tierra, no habia sol. La \xFAnica luz era el coraz\xF3n
+        de Nhamandu.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -108.904175
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188774, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 194
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188774, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: Still there was no earth, there was no sun. The only light was Nhamandu's
+        heart.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -101.03014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306949, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306949, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -121
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: Nhamandu cria aqueles com quem dividira a sabedoria infinita. O primeiro
+        deles, o Sol.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 86
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511687, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8775553491317956091, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_Name
+      value: CanvasFade
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2afa3391ce626154184d2e51b3202c01, type: 3}
 --- !u!1001 &1389354095
 PrefabInstance:
   m_ObjectHideFlags: 0

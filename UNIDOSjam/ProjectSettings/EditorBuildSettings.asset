@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ShadersScene.unity
     guid: 1dda429cdec18824fa5ded0cf3ff09e7
+  - enabled: 1
+    path: Assets/Scenes/ColibriPuzzle.unity
+    guid: ebbdaee44223c4948b9a0077398cba59
+  - enabled: 1
+    path: Assets/Scenes/SunPuzzle.unity
+    guid: 0dbf9347034660c458d1b911bcf6aaf0
+  - enabled: 1
+    path: Assets/Scenes/AnimalPuzzle.unity
+    guid: 239c860ad5a921940b03b6b3dba43e0c
   m_configObjects: {}

@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1828,6 +1828,461 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &1442062134
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1137374251536728722, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252135639015, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: Nhamandu, nuestro gran padre, luego sube al firmamento para descansar
+        y cuidar sus creaciones.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -135.03378
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -172.8655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667945, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667945, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 219
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 133
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: "Nhamandu caminhava sobre a nova Terra. \nAo longe, viu uma pequena
+        \xE1rvore crescer que se ampliaria em floresta e os primeiros animais."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -345.52704
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -255.78519
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252395033465, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 133
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: "Nhamandu camin\xF3 sobre la nueva Tierra.\r \nA lo lejos, vio crecer
+        un peque\xF1o \xE1rbol que se expandir\xEDa en bosque y los primeros animales."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -112.71716
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 123
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: Nhamandu walked on the newborn Earth and saw a small tree grow that
+        would later extend into florests and the first animals.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -208.23378
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -116.60443
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252606306949, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: 'Nhamandu, our great father, then climbs to his firmament to rest and
+        take care of his creations. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -120.24847
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300102, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300102, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -211
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: "Nhamandu, our great father, ent\xE3o sobe a seu firmamento para descansar
+        e cuidar de suas cria\xE7\xF5es."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -263.33493
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -261.789
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511687, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8775553491317956091, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_Name
+      value: CanvasFade
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2afa3391ce626154184d2e51b3202c01, type: 3}
 --- !u!1 &1661629889
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,6 +14,6 @@ public class EndStage : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
         fade.GetComponent<FadeInFadeOut>().fade();
-        //SceneManager.LoadScene(scene);
+        SceneManager.LoadScene(scene);
     }
 }

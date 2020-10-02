@@ -1507,5 +1507,10 @@ PrefabInstance:
       propertyPath: fade
       value: 
       objectReference: {fileID: 966453728}
+    - target: {fileID: 7189245861745977805, guid: 3f71af34608d89b41b2f3fc48610bf50,
+        type: 3}
+      propertyPath: scene
+      value: ColibriPuzzle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f71af34608d89b41b2f3fc48610bf50, type: 3}
