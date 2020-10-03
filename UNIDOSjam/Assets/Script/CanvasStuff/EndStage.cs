@@ -22,6 +22,11 @@ public class EndStage : MonoBehaviour
         StartCoroutine(ExampleCoroutine());
     }
 
+    public void Finish(){
+        fade.GetComponent<FadeInFadeOut>().finish();
+        StartCoroutine(UrucureaCoroutine());
+    }
+
     IEnumerator ExampleCoroutine()
     {
         //Print the time of when the function is first called.
@@ -34,5 +39,11 @@ public class EndStage : MonoBehaviour
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
 
         SceneManager.LoadScene(scene);
+    }
+
+    IEnumerator UrucureaCoroutine(){
+        Debug.Log("Started Coroutineaaa at timestamp : " + Time.time);
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(scene);            
     }
 }

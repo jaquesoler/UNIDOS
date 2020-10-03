@@ -29,10 +29,10 @@ public class FadeInFadeOut : MonoBehaviour
             fadeImg.canvasRenderer.SetAlpha(1.0f);
             text.canvasRenderer.SetAlpha(1.0f);
 
-            fadeImg.CrossFadeAlpha(0,12,false);
-            text.CrossFadeAlpha(0,12,false);
-            textEN.CrossFadeAlpha(0,12,false);
-            textES.CrossFadeAlpha(0,12,false);
+            fadeImg.CrossFadeAlpha(0,20,false);
+            text.CrossFadeAlpha(0,20,false);
+            textEN.CrossFadeAlpha(0,20,false);
+            textES.CrossFadeAlpha(0,20,false);
 
             
             
@@ -54,7 +54,7 @@ public class FadeInFadeOut : MonoBehaviour
 
     IEnumerator UrucureaCoroutine(){
         Debug.Log("Started Coroutineaaa at timestamp : " + Time.time);
-        yield return new WaitForSeconds(8);                
+        yield return new WaitForSeconds(7);                
         corujitas.SetActive(true);
     }
 
@@ -77,6 +77,11 @@ public class FadeInFadeOut : MonoBehaviour
                 Debug.Log("aaaaa");
                 StartCoroutine(UrucureaCoroutine());
             }
+    }
 
+    public void finish(){
+        if(urucurea == 1){
+            corujitas.SetActive(true);
+            }
     }
 }

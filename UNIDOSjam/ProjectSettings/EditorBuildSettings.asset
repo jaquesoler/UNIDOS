@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AnimalPuzzle.unity
     guid: 239c860ad5a921940b03b6b3dba43e0c
+  - enabled: 1
+    path: Assets/Scenes/Mundo.unity
+    guid: c33afd41e2c5ebf4b9b4107e9900c7b2
   m_configObjects: {}

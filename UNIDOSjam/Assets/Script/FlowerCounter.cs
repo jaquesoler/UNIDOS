@@ -13,6 +13,20 @@ public class FlowerCounter : MonoBehaviour
     void Start()
     {
         flowDelivered = 0;
+        StartCoroutine(MyCoroutine());
+
+    }
+
+    IEnumerator MyCoroutine()
+    {
+        //Print the time of when the function is first called.
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(20);
+
+        //After we have waited 5 seconds print the time again.
+        this.GetComponent<SpawnManager>().enabled = true;
     }
 
     // Update is called once per frame
