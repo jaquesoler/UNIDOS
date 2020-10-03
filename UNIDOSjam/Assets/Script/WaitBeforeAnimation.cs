@@ -23,7 +23,7 @@ public class WaitBeforeAnimation : MonoBehaviour
 
     IEnumerator UrucureaCoroutine(){
         Debug.Log("Started Coroutineaaa at timestamp : " + Time.time);
-        yield return new WaitForSeconds(15);                
+        yield return new WaitForSeconds(19);                
         container.SetActive(false);
         livro.SetActive(true);
         Camera.main.GetComponent<Animator>().enabled = true;
