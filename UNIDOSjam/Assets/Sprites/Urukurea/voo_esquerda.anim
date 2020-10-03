@@ -30,7 +30,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.6
+        time: 1.5
         value: 2
         inSlope: 0
         outSlope: 0
@@ -58,7 +58,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.6
+        time: 1.5
         value: -574.00006
         inSlope: 0
         outSlope: 0
@@ -77,25 +77,25 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 52eddfc17f1c1af47a6ffcd2ef4bf998, type: 3}
-    - time: 0.2
+    - time: 0.1
       value: {fileID: 21300000, guid: 1bbe71c3f43409149bff748a5c4b8287, type: 3}
-    - time: 0.4
+    - time: 0.3
       value: {fileID: 21300000, guid: c7613c4dbe3c7f3488f70306906f178c, type: 3}
-    - time: 0.6
+    - time: 0.5
       value: {fileID: 21300000, guid: b532bae14619d5e428285ff17572132a, type: 3}
-    - time: 0.8
+    - time: 0.7
       value: {fileID: 21300000, guid: 1e85a1f658e0d03478b0c845e6f04a1b, type: 3}
-    - time: 1
+    - time: 0.9
       value: {fileID: 21300000, guid: b532bae14619d5e428285ff17572132a, type: 3}
-    - time: 1.2
+    - time: 1.1
       value: {fileID: 21300000, guid: c7613c4dbe3c7f3488f70306906f178c, type: 3}
-    - time: 1.4
+    - time: 1.3
       value: {fileID: 21300000, guid: 1bbe71c3f43409149bff748a5c4b8287, type: 3}
     attribute: m_Sprite
     path: Coruja
     classID: 114
     script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_SampleRate: 5
+  m_SampleRate: 10
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -137,7 +137,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.6
+    m_StopTime: 1.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -166,7 +166,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.6
+        time: 1.5
         value: 2
         inSlope: 0
         outSlope: 0
@@ -194,7 +194,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.6
+        time: 1.5
         value: -574.00006
         inSlope: 0
         outSlope: 0

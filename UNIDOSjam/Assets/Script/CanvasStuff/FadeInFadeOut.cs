@@ -14,7 +14,7 @@ public class FadeInFadeOut : MonoBehaviour
     public /*Text*/TMP_Text textES;
 
     public bool fIn;
-    public bool urucurea;
+    public int urucurea;
     public GameObject corujitas;
     // Start is called before the first frame update
     void Start()
@@ -24,19 +24,17 @@ public class FadeInFadeOut : MonoBehaviour
         }
         if (fIn == false){
             dialogue.SetActive(true);
+            urucurea = 1;
 
             fadeImg.canvasRenderer.SetAlpha(1.0f);
             text.canvasRenderer.SetAlpha(1.0f);
 
-            fadeImg.CrossFadeAlpha(0,10,false);
-            text.CrossFadeAlpha(0,10,false);
-            textEN.CrossFadeAlpha(0,10,false);
-            textES.CrossFadeAlpha(0,10,false);
+            fadeImg.CrossFadeAlpha(0,12,false);
+            text.CrossFadeAlpha(0,12,false);
+            textEN.CrossFadeAlpha(0,12,false);
+            textES.CrossFadeAlpha(0,12,false);
 
-            if(urucurea){
-                corujitas.SetActive(true);
-                StartCoroutine(UrucureaCoroutine());
-            }
+            
             
         }  
     }
@@ -56,7 +54,8 @@ public class FadeInFadeOut : MonoBehaviour
 
     IEnumerator UrucureaCoroutine(){
         Debug.Log("Started Coroutineaaa at timestamp : " + Time.time);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(8);                
+        corujitas.SetActive(true);
     }
 
     // Update is called once per frame
@@ -69,10 +68,15 @@ public class FadeInFadeOut : MonoBehaviour
             textEN.canvasRenderer.SetAlpha(0.0f);
             textES.canvasRenderer.SetAlpha(0.0f);
 
-            fadeImg.CrossFadeAlpha(1,2,false);
-            text.CrossFadeAlpha(1,2,false);
-            textEN.CrossFadeAlpha(1,2,false);
-            textES.CrossFadeAlpha(1,2,false);
+            fadeImg.CrossFadeAlpha(1,8,false);
+            text.CrossFadeAlpha(1,8,false);
+            textEN.CrossFadeAlpha(1,8,false);
+            textES.CrossFadeAlpha(1,8,false);
+
+            if(urucurea == 1){
+                Debug.Log("aaaaa");
+                StartCoroutine(UrucureaCoroutine());
+            }
 
     }
 }
