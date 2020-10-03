@@ -11,9 +11,10 @@ public class EndStage : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
             if(triggerMeTimbers){
+                if(col.tag == "Player"){
                 fade.GetComponent<FadeInFadeOut>().fade();
                 triggerMeTimbers = false;
-                StartCoroutine(ExampleCoroutine());   
+                StartCoroutine(ExampleCoroutine());   }
             }
     }
 

@@ -9,6 +9,7 @@ public class FlowerCounter : MonoBehaviour
     public int flowDelivered;
 
     public GameObject endme;
+    public GameObject music;
 
     void Start()
     {
@@ -36,6 +37,7 @@ public class FlowerCounter : MonoBehaviour
         {
             //Debug.Log("Iamandu ta Happyy!");
             endme.GetComponent<EndStage>().triggerMeTimbers = true;
+            music.SetActive(true);
         }
 
         else if (flowDelivered < 8 && this.GetComponent<SpawnManager>().FlowersSpawned >= this.GetComponent<SpawnManager>().SpawnRepeater)
