@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -379,7 +379,7 @@ PrefabInstance:
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 173
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -404,14 +404,14 @@ PrefabInstance:
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: Nhamandu chamou seus filhos, herdeiros da sabedoria e amor infinito,
-        e disse para que continuassem seu trabalho.  Tenham muitos filhos, se espalhem
-        pelo mundo e protejam-no.
+      value: 'Nhamandu chama seus filhos, herdeiros da sabedoria e amor infinito,
+        e os instruiu a continuar seu trabalho:  "Tenham muitos filhos, se espalhem
+        pelo mundo e protejam-no."'
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -553,17 +553,17 @@ PrefabInstance:
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 161
+      value: 164
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -578,14 +578,14 @@ PrefabInstance:
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: Nhamandu called his sons, heirs of wisdom and infinite love, and told
-        them to continue his work. To have many children, spread throught the world
-        and protect it.
+      value: 'Nhamandu gather his children, heirs of wisdom and infinite love, and
+        tells them to continue his work: "Bear many children, spread throught the
+        world and protect it"'
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 42
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
