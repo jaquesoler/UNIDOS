@@ -2793,8 +2793,8 @@ PrefabInstance:
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: Nhamandu then create those whom he'll share the infinite wisdom. The
-        first of them, the Sun.
+      value: The Sun is born,  displaying his Father's light. It's the first entity
+        that shares Nhamandu's infinite wisdom.
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -2844,8 +2844,8 @@ PrefabInstance:
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: "Nhamandu ent\xE3o cria aqueles com quem dividira a sabedoria infinita.
-        O primeiro deles, o Sol."
+      value: "\xC9 criado o Sol, recebendo a luz do Pai. Seu nascimeto \xE9 o primeiro
+        dentre as fontes de sabedoria de Nhamandu."
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}

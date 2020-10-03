@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1940,8 +1940,8 @@ PrefabInstance:
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: "Nhamandu caminhava sobre a nova Terra. \nAo longe, viu uma pequena
-        \xE1rvore crescer que se ampliaria em floresta e os primeiros animais."
+      value: "O grandioso Pai caminhava sobre a nova Terra. Ao longe, viu uma pequena
+        \xE1rvore crescer, que se tornaria numa floresta, lar dos primeiros animais."
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -2057,8 +2057,8 @@ PrefabInstance:
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: Nhamandu walked on the newborn Earth and saw a small tree grow that
-        would later extend into florests and the first animals.
+      value: Our Great Father walked on the newborn Earth. From afar, He saw a small
+        tree grow, that would later extend into florests, home of the first animals.
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -2123,8 +2123,7 @@ PrefabInstance:
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: 'Nhamandu, our great father, then climbs to his firmament to rest and
-        take care of his creations. '
+      value: 'He then climbs to his firmament to rest and take care of his creations. '
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -2169,8 +2168,7 @@ PrefabInstance:
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: "Nhamandu, our great father, ent\xE3o sobe a seu firmamento para descansar
-        e cuidar de suas cria\xE7\xF5es."
+      value: "Assim, ele sobe a seu firmamento para descansar e cuidar de suas cria\xE7\xF5es."
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}

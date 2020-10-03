@@ -663,17 +663,17 @@ PrefabInstance:
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 98
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -688,8 +688,8 @@ PrefabInstance:
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: "Nhamandu descansa e de seu coc\xE1r,\nnasce o p\xE1ssaro Colibri. Alimentando-o
-        com o orvalho das flores."
+      value: "Nhamandu descansa, e de seu coc\xE1r\nnasce o p\xE1ssaro Colibri. O
+        p\xE1ssaro alimenta-o com o orvalho das flores."
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -815,17 +815,17 @@ PrefabInstance:
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 107
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 17
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -840,13 +840,13 @@ PrefabInstance:
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: Nhamandu rested and from his headdress of feathers, the hummingbird
-        is born. Feeding him  the flowers' dew.
+      value: Nhamandu rested, and from his headdress of feathers, the hummingbird
+        is born. The bird feeds him the flowers' dew.
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 42
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -916,8 +916,8 @@ PrefabInstance:
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: And, creates the Source of Infinite Divine Wisdom. The Beautiful Words,
-        Infinite Love and Holy Song.
+      value: 'Thus are created the Sources of Infinite Divine Wisdom: The Beautiful
+        Words, Infinite Love and Holy Chant.'
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -947,8 +947,8 @@ PrefabInstance:
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: E assim, cria as Fontes Divinas da sabedoria infinita. As Belas Palavras,
-        Amor Infinito e Canto Sagrado.
+      value: "Com isso, s\xE3o criadas as fontes Divinas da sabedoria infinita: As
+        Belas Palavras, Amor Infinito e Canto Sagrado."
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
