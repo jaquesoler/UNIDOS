@@ -376,6 +376,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1137374252135639013, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252135639013, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252135639013, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -476,7 +496,7 @@ PrefabInstance:
     - target: {fileID: 1137374252410190923, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -631,6 +651,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -129
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1861106211343706486, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -1079,6 +1109,12 @@ Transform:
   m_Father: {fileID: 1922557281}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1428464102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1137374252638062711, guid: 2afa3391ce626154184d2e51b3202c01,
+    type: 3}
+  m_PrefabInstance: {fileID: 462776761}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1602261097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,6 +1266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   container: {fileID: 1922557280}
   livro: {fileID: 380064847}
+  fadeOut: {fileID: 1428464102}
 --- !u!1 &1922557280
 GameObject:
   m_ObjectHideFlags: 0

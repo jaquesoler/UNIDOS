@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -602,7 +602,7 @@ PrefabInstance:
     - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: "Nhamandu crea las Fuentes Divinas de sabidur\xEDa infinita. Las Bellas
+      value: "As\xED, crea las Fuentes Divinas de sabidur\xEDa infinita. Las Bellas
         Palabras, Amor Infinito y Canto Sagrado."
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
@@ -906,7 +906,7 @@ PrefabInstance:
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 46
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -916,13 +916,13 @@ PrefabInstance:
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: Nhamandu create the Source of Infinite Divine Wisdom. The Beautiful
-        Words, Infinite Love and Holy Song.
+      value: And, creates the Source of Infinite Divine Wisdom. The Beautiful Words,
+        Infinite Love and Holy Song.
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 103
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -942,12 +942,12 @@ PrefabInstance:
     - target: {fileID: 1137374252869300102, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -85
+      value: -105
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: Nhamandu cria as Fontes Divinas da sabedoria infinita. As Belas Palavras,
+      value: E assim, cria as Fontes Divinas da sabedoria infinita. As Belas Palavras,
         Amor Infinito e Canto Sagrado.
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
