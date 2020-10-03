@@ -387,7 +387,7 @@ MonoBehaviour:
   flowerPrefab: {fileID: 2837795639497451802, guid: 3bee2bde7146f9a49b5a53d7c6c230b4,
     type: 3}
   respawnTime: 1
-  SpawnRepeater: 15
+  SpawnRepeater: 100
   FlowersSpawned: 0
 --- !u!4 &730705121
 Transform:
@@ -561,7 +561,7 @@ PrefabInstance:
     - target: {fileID: 1137374252410190923, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -1098,8 +1098,8 @@ Camera:
   m_GameObject: {fileID: 1574867852}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
