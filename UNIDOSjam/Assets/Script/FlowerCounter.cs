@@ -8,6 +8,8 @@ public class FlowerCounter : MonoBehaviour
 
     public int flowDelivered;
 
+    public GameObject endme;
+
     void Start()
     {
         flowDelivered = 0;
@@ -19,7 +21,7 @@ public class FlowerCounter : MonoBehaviour
         if (flowDelivered >= 8)
         {
             //Debug.Log("Iamandu ta Happyy!");
-            GetComponent<EndStage>().EndLvl();
+            endme.GetComponent<EndStage>().triggerMeTimbers = true;
         }
 
         else if (flowDelivered < 8 && this.GetComponent<SpawnManager>().FlowersSpawned >= this.GetComponent<SpawnManager>().SpawnRepeater)

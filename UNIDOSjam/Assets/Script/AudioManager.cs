@@ -12,8 +12,6 @@ public class AudioManager : MonoBehaviour
     //private GameObject musicmanager;
 
     void Awake(){
-        GameObject musicmanager = GameObject.FindGameObjectWithTag("MusicManager");
-        if(musicmanager){return;}
         if(instance != null && instance != this){
             Destroy(this.gameObject);
             return;

@@ -5,6 +5,8 @@ using UnityEngine;
 public class CounterForTransitionAnimals : MonoBehaviour
 {
 
+    public GameObject endme;
+
     public int contador;
    
     void Start()
@@ -18,7 +20,7 @@ public class CounterForTransitionAnimals : MonoBehaviour
         if (contador == 7)
         {
             Debug.Log("Você achou Todos, Parabéns!");
-            this.GetComponent<EndStage>().EndLvl();
+            endme.GetComponent<EndStage>().EndLvl();
 
 
             //Aqui entra o codigo pra transição de cena

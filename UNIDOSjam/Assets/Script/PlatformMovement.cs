@@ -16,6 +16,7 @@ public class PlatformMovement : MonoBehaviour
     public LayerMask whatIsGround;
     private int extraJumps;
     public int extraJumpsValue;
+    public Animator animator;
 
     //private Animator anim;
 
@@ -30,6 +31,7 @@ public class PlatformMovement : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
         moveInput = Input.GetAxis("Horizontal");
+        animator.SetFloat("Speed", Mathf.Abs(moveInput));
         if(moveInput == 0){
             //anim.SetBool("isRunning", false);
         } else{

@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 507478479}
   - component: {fileID: 507478476}
   - component: {fileID: 507478480}
+  - component: {fileID: 507478481}
   m_Layer: 0
   m_Name: Entity
   m_TagString: Ent
@@ -338,6 +339,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &507478481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507478475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a56dd7baecc36e43b051416883d8319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: SunPuzzle
+  fade: {fileID: 1068376011}
+  triggerMeTimbers: 0
 --- !u!1 &730705119
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,7 +365,6 @@ GameObject:
   - component: {fileID: 730705121}
   - component: {fileID: 730705120}
   - component: {fileID: 730705122}
-  - component: {fileID: 730705123}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: ManagerSpawn
@@ -401,21 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowDelivered: 0
---- !u!114 &730705123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 730705119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a56dd7baecc36e43b051416883d8319, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: SunPuzzle
-  fade: {fileID: 1068376011}
-  triggerMeTimbers: 0
+  endme: {fileID: 507478475}
 --- !u!114 &888629615 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,

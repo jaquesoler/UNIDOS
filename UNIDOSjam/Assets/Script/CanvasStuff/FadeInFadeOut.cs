@@ -14,6 +14,8 @@ public class FadeInFadeOut : MonoBehaviour
     public /*Text*/TMP_Text textES;
 
     public bool fIn;
+    public bool urucurea;
+    public GameObject corujitas;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +32,12 @@ public class FadeInFadeOut : MonoBehaviour
             text.CrossFadeAlpha(0,10,false);
             textEN.CrossFadeAlpha(0,10,false);
             textES.CrossFadeAlpha(0,10,false);
-            StartCoroutine(ExampleCoroutine());
+
+            if(urucurea){
+                corujitas.SetActive(true);
+                StartCoroutine(UrucureaCoroutine());
+            }
+            
         }  
     }
 
@@ -45,6 +52,11 @@ public class FadeInFadeOut : MonoBehaviour
         //After we have waited 5 seconds print the time again.
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
         dialogue.SetActive(false);
+    }
+
+    IEnumerator UrucureaCoroutine(){
+        Debug.Log("Started Coroutineaaa at timestamp : " + Time.time);
+        yield return new WaitForSeconds(2);
     }
 
     // Update is called once per frame
