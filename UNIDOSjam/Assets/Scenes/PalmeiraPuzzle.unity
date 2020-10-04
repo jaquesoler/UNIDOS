@@ -921,7 +921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzle1: 0100000002000000030000000400000005000000
   puzzleAnswer: 0000000000000000000000000000000000000000
-  sequencePuzzle: 5
+  sequencePuzzle: 0
   isNeedTurnOn1: 0
   isNeedTurnOn2: 0
   isNeedTurnOn3: 0
