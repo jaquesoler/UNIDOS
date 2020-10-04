@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PalmeiraPuzzle : MonoBehaviour
 { 
@@ -26,10 +27,15 @@ public GameObject[] lightPalm;
 
 public bool turnOnButtons;
 
+public GameObject endme;
+
+public GameObject fadeCanvas;
+
     // Start is called before the first frame update
     void Start()
 {
-        StartCoroutine("StartPalmsPuzzle");
+        //
+        StartCoroutine(JackoCoroutine());
     /*for (int i = 0; i <= 4; i++ )
       {
           puzzle1[i] = i;
@@ -38,6 +44,13 @@ public bool turnOnButtons;
 
 
 }
+
+  IEnumerator JackoCoroutine(){
+        Debug.Log("Started Coroutineaaa at timestamp : " + Time.time);
+        yield return new WaitForSeconds(20);
+        fadeCanvas.SetActive(false);
+        StartCoroutine("StartPalmsPuzzle");          
+    }
 
 // Update is called once per frame
 void Update()
@@ -53,6 +66,8 @@ void Update()
         if(sequencePuzzle == 5)
         {
             Debug.Log("Você venceu o puzzle");
+            endme.GetComponent<EndStage>().Finish();
+            
             sequencePuzzle = 0;
         }
 
