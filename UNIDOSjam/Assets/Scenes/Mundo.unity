@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -652,6 +652,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -129
       objectReference: {fileID: 0}
+    - target: {fileID: 1137374252638062709, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: textEN
+      value: 
+      objectReference: {fileID: 1081118123}
+    - target: {fileID: 1137374252638062709, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: textES
+      value: 
+      objectReference: {fileID: 1937801214}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
@@ -947,6 +957,18 @@ Transform:
   m_Father: {fileID: 1922557281}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -113.29401}
+--- !u!114 &1081118123 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+    type: 3}
+  m_PrefabInstance: {fileID: 462776761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1086912195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,3 +1324,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1937801214 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+    type: 3}
+  m_PrefabInstance: {fileID: 462776761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

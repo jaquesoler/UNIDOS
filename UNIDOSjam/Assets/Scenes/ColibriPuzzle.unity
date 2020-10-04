@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -195,6 +195,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c21551e18c6ecb140a34f78eec5984c5, type: 3}
+--- !u!114 &215400075 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1137374252604188773, guid: 2afa3391ce626154184d2e51b3202c01,
+    type: 3}
+  m_PrefabInstance: {fileID: 995345514}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &507478475
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a56dd7baecc36e43b051416883d8319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: SunPuzzle
+  scene: Maze
   fade: {fileID: 1068376011}
   triggerMeTimbers: 0
 --- !u!1 &730705119
@@ -589,6 +601,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1137374251536728720, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: textEN
+      value: 
+      objectReference: {fileID: 1686234918}
+    - target: {fileID: 1137374251536728720, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: textES
+      value: 
+      objectReference: {fileID: 215400075}
     - target: {fileID: 1137374251536728722, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_IsActive
@@ -1502,6 +1524,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1686234918 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1137374252606306948, guid: 2afa3391ce626154184d2e51b3202c01,
+    type: 3}
+  m_PrefabInstance: {fileID: 995345514}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1832525953
 GameObject:
   m_ObjectHideFlags: 0
