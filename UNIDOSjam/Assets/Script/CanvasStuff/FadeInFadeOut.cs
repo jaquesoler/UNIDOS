@@ -10,8 +10,7 @@ public class FadeInFadeOut : MonoBehaviour
     public GameObject dialogue;
     public Image fadeImg;
     public /*Text*/TMP_Text text;
-    public /*Text*/TMP_Text textEN;
-    public /*Text*/TMP_Text textES;
+
 
     public bool fIn;
     public int urucurea;
@@ -31,11 +30,7 @@ public class FadeInFadeOut : MonoBehaviour
 
             fadeImg.CrossFadeAlpha(0,20,false);
             text.CrossFadeAlpha(0,20,false);
-            textEN.CrossFadeAlpha(0,20,false);
-            textES.CrossFadeAlpha(0,20,false);
-
-            
-            
+ 
         }  
     }
 
@@ -65,14 +60,10 @@ public class FadeInFadeOut : MonoBehaviour
 
             fadeImg.canvasRenderer.SetAlpha(0.0f);
             text.canvasRenderer.SetAlpha(0.0f);
-            textEN.canvasRenderer.SetAlpha(0.0f);
-            textES.canvasRenderer.SetAlpha(0.0f);
 
             fadeImg.CrossFadeAlpha(1,8,false);
             text.CrossFadeAlpha(1,8,false);
-            textEN.CrossFadeAlpha(1,8,false);
-            textES.CrossFadeAlpha(1,8,false);
-
+ 
             if(urucurea == 1){
                 Debug.Log("aaaaa");
                 StartCoroutine(UrucureaCoroutine());
