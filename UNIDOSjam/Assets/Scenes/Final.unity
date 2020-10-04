@@ -183,7 +183,7 @@ MonoBehaviour:
     Soler de Mello\n\n\n\n\n\nProject Manager:\n\n\nJaques Soler de Mello\n\n\n\n\n\nBased
     on the book \"A Terra uma s\xF3\" \nfrom Tim\xF3teo Ver\xE1 Tup\xE3 Popygua 
     \n\n\n\n\n\nSpecial Thanks to:\n\n\nTim\xF3teo Ver\xE1 Tup\xE3 Popygua\r\n\r\nThe
-    Guarani-Mbuya people\r\n\r\nOur family, friends and pets"
+    Guarani-Mbya people\r\n\r\nOur family, friends and pets"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1517,6 +1517,8 @@ MonoBehaviour:
   dialogue: {fileID: 1137374251382285675}
   fadeImg: {fileID: 1137374251382285673}
   text: {fileID: 1137374251400751704}
+  textEN: {fileID: 0}
+  textES: {fileID: 0}
   fIn: 0
   urucurea: 0
   corujitas: {fileID: 0}
