@@ -36,6 +36,7 @@ public class WaitBeforeAnimation : MonoBehaviour
         Debug.Log("Started Coroutineaaa at timestamp : " + Time.time);
         yield return new WaitForSeconds(22);                
         fadeOut.GetComponent<FadeInFadeOut>().fade();
+        AudioManager.Instance.gameObject.GetComponent<AudioSource>().Pause();
 
         StartCoroutine(ChangeSceneCoroutine());
     }
