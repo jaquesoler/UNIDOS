@@ -9,12 +9,21 @@ public class LigaAsNuvens : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nuvensDissolviveis.SetActive(true);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (PuzzleController.ligarNeblina == true)
+        {
+            nuvensDissolviveis.SetActive(true);
+        }
+        else
+        {
+            nuvensDissolviveis.SetActive(false);
+        }
     }
+
+   
 }

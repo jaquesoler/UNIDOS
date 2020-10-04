@@ -9,6 +9,8 @@ TagManager:
   - ManagerSpawn
   - EndZone
   - contador
+  - Wall
+  - Nuvem
   layers:
   - Default
   - TransparentFX
