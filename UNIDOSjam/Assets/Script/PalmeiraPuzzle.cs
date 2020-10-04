@@ -15,6 +15,7 @@ public bool isNeedTurnOn2;
 public bool isNeedTurnOn3;
 public bool isNeedTurnOn4;
 public bool isNeedTurnOn5;
+   
 
 public AudioClip[] audios;
 public AudioSource audioSource;
