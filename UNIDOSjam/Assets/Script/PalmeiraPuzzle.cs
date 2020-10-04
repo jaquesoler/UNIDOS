@@ -49,6 +49,14 @@ void Update()
                 palmbut.interactable = true;
             }
         }
+
+        if(sequencePuzzle == 5)
+        {
+            Debug.Log("Você venceu o puzzle");
+            sequencePuzzle = 0;
+        }
+
+        
 }
 
 public void InputPuzzle(int valorPuzzle)
@@ -65,7 +73,7 @@ public void InputPuzzle(int valorPuzzle)
     if (puzzleAnswer[sequencePuzzle] == puzzle1[sequencePuzzle])
     {
         Debug.Log("Deu certo");
-        sequencePuzzle++;
+        sequencePuzzle++;           
     }
     else
     {
