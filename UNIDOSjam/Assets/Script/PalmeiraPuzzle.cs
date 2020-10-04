@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,6 +14,9 @@ public bool isNeedTurnOn2;
 public bool isNeedTurnOn3;
 public bool isNeedTurnOn4;
 public bool isNeedTurnOn5;
+
+public AudioClip[] audios;
+public AudioSource audioSource;
 
 public GameObject[] lightPalm;
 
@@ -43,6 +47,8 @@ public void InputPuzzle(int valorPuzzle)
     }
 
     puzzleAnswer[sequencePuzzle] = valorPuzzle;
+
+    audioSource.PlayOneShot(audios[valorPuzzle - 1]);
 
     if (puzzleAnswer[sequencePuzzle] == puzzle1[sequencePuzzle])
     {
