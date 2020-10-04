@@ -67,6 +67,8 @@ public class PalmLight : MonoBehaviour
                 _palmeiraPuzzle.isNeedTurnOn1 = false;
                 palmLight.SetActive(true);
 
+                _palmeiraPuzzle.audioSource.PlayOneShot(_palmeiraPuzzle.audios[0]);
+
                 yield return new WaitForSeconds(timeToTurnOff);
                 palmLight.SetActive(false);
             }
@@ -78,6 +80,8 @@ public class PalmLight : MonoBehaviour
             {
                 _palmeiraPuzzle.isNeedTurnOn2 = false;
                 palmLight.SetActive(true);
+
+                _palmeiraPuzzle.audioSource.PlayOneShot(_palmeiraPuzzle.audios[1]);
 
                 yield return new WaitForSeconds(timeToTurnOff);
                 palmLight.SetActive(false);
@@ -91,6 +95,8 @@ public class PalmLight : MonoBehaviour
                 _palmeiraPuzzle.isNeedTurnOn3 = false;
                 palmLight.SetActive(true);
 
+                _palmeiraPuzzle.audioSource.PlayOneShot(_palmeiraPuzzle.audios[2]);
+
                 yield return new WaitForSeconds(timeToTurnOff);
                 palmLight.SetActive(false);
             }
@@ -103,6 +109,8 @@ public class PalmLight : MonoBehaviour
                 _palmeiraPuzzle.isNeedTurnOn4 = false;
                 palmLight.SetActive(true);
 
+                _palmeiraPuzzle.audioSource.PlayOneShot(_palmeiraPuzzle.audios[3]);
+
                 yield return new WaitForSeconds(timeToTurnOff);
                 palmLight.SetActive(false);
             }
@@ -114,6 +122,8 @@ public class PalmLight : MonoBehaviour
             {
                 _palmeiraPuzzle.isNeedTurnOn5 = false;
                 palmLight.SetActive(true);
+
+                _palmeiraPuzzle.audioSource.PlayOneShot(_palmeiraPuzzle.audios[4]);
 
                 yield return new WaitForSeconds(timeToTurnOff);
                 palmLight.SetActive(false);
