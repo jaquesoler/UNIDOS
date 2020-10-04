@@ -117,6 +117,7 @@ public class PalmLight : MonoBehaviour
 
                 yield return new WaitForSeconds(timeToTurnOff);
                 palmLight.SetActive(false);
+                _palmeiraPuzzle.turnOnButtons = true;
             }
 
         }

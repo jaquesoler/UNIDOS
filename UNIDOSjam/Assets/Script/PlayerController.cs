@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
-        //playerAnimator = GetComponent<Animator>();
+        //playerAnimator = GetComponent<Animator>();        
     }
 
     // Update is called once per frame
@@ -23,7 +23,10 @@ public class PlayerController : MonoBehaviour
     {
         PlayerMovement();
         
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            PuzzleController.isDone1 = true;            
+        }
     }
 
     private void FixedUpdate()

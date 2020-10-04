@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PalmeiraPuzzle : MonoBehaviour
 { 
@@ -15,6 +16,10 @@ public bool isNeedTurnOn4;
 public bool isNeedTurnOn5;
 
 public GameObject[] lightPalm;
+
+    public Button[] palmButtons;
+
+public bool turnOnButtons;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +37,13 @@ public GameObject[] lightPalm;
 // Update is called once per frame
 void Update()
 {
-
+        if (turnOnButtons)
+        {
+            foreach (Button palmbut in palmButtons)
+            {
+                palmbut.interactable = true;
+            }
+        }
 }
 
 public void InputPuzzle(int valorPuzzle)
@@ -69,6 +80,13 @@ public void InputPuzzle(int valorPuzzle)
 
     IEnumerator StartPalmsPuzzle()
     {
+
+        foreach(Button palmbutton in palmButtons)
+        {
+            palmbutton.interactable = false;
+        }
+
+
         foreach(GameObject light in lightPalm)
         {
             light.SetActive(true);
@@ -99,6 +117,7 @@ public void InputPuzzle(int valorPuzzle)
         isNeedTurnOn4 = true;
         isNeedTurnOn5 = true;
 
+       
     }
 
 }

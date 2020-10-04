@@ -932,6 +932,13 @@ MonoBehaviour:
   - {fileID: 1534099662}
   - {fileID: 1938769185}
   - {fileID: 2032613897}
+  palmButtons:
+  - {fileID: 686560920}
+  - {fileID: 1491427562}
+  - {fileID: 1007568234}
+  - {fileID: 416919828}
+  - {fileID: 447981336}
+  turnOnButtons: 0
 --- !u!4 &1227151932
 Transform:
   m_ObjectHideFlags: 0
