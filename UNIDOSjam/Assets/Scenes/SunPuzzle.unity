@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7503520}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.945001, y: 22.17, z: 0}
+  m_LocalPosition: {x: 13.09, y: 20.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1161519168}
@@ -941,7 +941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529247013}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3450003, y: 14.62, z: 0}
+  m_LocalPosition: {x: 4.3450003, y: 13.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1824847985}
@@ -2549,28 +2549,28 @@ PrefabInstance:
     - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: "Nhamandu crea aquellos con quienes compartir\xE1 la sabidur\xEDa infinita.
-        El primer, el Sol."
+      value: "As\xED Nhamandu crea sus hijos. El Sol, y los guardianes de la niebla,
+        del fuego y del viento, de la lluvia y del rel\xE1mpago. "
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 27
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 87
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 12
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 13
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -2582,15 +2582,25 @@ PrefabInstance:
       propertyPath: m_fontStyle
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -290.7999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137374252373667944, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1137374252373667945, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -104
+      value: -118
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252373667945, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 228
+      value: 251
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252395033464, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -2793,28 +2803,28 @@ PrefabInstance:
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: The Sun is born,  displaying his Father's light. It's the first entity
-        that shares Nhamandu's infinite wisdom.
+      value: Then Nhamndu creates his sons. The Sun and the guardians of the fog,
+        the fire and the wind, rain and thunder.
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 27
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 92
+      value: 109
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 16
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
@@ -2831,41 +2841,46 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 1137374252869300101, guid: 2afa3391ce626154184d2e51b3202c01,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -143.80295
+      objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300102, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 120
+      value: 133
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252869300102, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -192
+      value: -194
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_text
-      value: "\xC9 criado o Sol, recebendo a luz do Pai. Seu nascimeto \xE9 o primeiro
-        dentre as fontes de sabedoria de Nhamandu."
+      value: "Ent\xE3o Nhamandu cria seus filhos. O Sol e os guardi\xF5es da neblina, 
+        do fogo e do vento, chuva e trov\xE3o."
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 37
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 92
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 14
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1137374252989511686, guid: 2afa3391ce626154184d2e51b3202c01,
         type: 3}
