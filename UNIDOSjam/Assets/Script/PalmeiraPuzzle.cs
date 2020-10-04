@@ -66,8 +66,7 @@ void Update()
         if(sequencePuzzle == 5)
         {
             Debug.Log("Você venceu o puzzle");
-            endme.GetComponent<EndStage>().Finish();
-            
+            PuzzleController.isDone4 = true;
             sequencePuzzle = 0;
         }
 

@@ -14,6 +14,9 @@ public class EndStage : MonoBehaviour
                 if(col.tag == "Player"){
                 fade.GetComponent<FadeInFadeOut>().fade();
                 triggerMeTimbers = false;
+
+                PuzzleController.isDone1 = true;
+
                 StartCoroutine(ExampleCoroutine());   }
             }
     }

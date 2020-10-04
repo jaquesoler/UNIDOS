@@ -36,6 +36,7 @@ public class FlowerCounter : MonoBehaviour
         if (flowDelivered >= 8)
         {
             //Debug.Log("Iamandu ta Happyy!");
+            PuzzleController.isDone2 = true;
             endme.GetComponent<EndStage>().triggerMeTimbers = true;
             music.SetActive(true);
         }
